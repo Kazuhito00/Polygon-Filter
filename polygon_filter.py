@@ -4,7 +4,7 @@ import cv2 as cv
 
 
 def polygon_filter(image,
-                   akaze_threshold=0.0003,
+                   akaze_threshold=0.00001,
                    additional_points=[],
                    draw_line=False):
     """ポリゴンフィルターを適用した画像を返す
